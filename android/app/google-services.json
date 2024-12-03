@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "683097529168",
+    "project_id": "timemanagementapp-99eb3",
+    "storage_bucket": "timemanagementapp-99eb3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:683097529168:android:9c4faf000ee2729fea6a55",
+        "android_client_info": {
+          "package_name": "com.nabou.time_management_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlOfaUvAgfg3D0e-2Y7-Oc32pGxfo8ZZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

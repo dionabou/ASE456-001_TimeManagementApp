@@ -1,0 +1,26 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "timemanagementapp-99eb3",
+          "appId": "1:683097529168:android:9c4faf000ee2729fea6a55",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "timemanagementapp-99eb3",
+          "configurations": {
+            "android": "1:683097529168:android:9c4faf000ee2729fea6a55",
+            "web": "1:683097529168:web:624cec3ef0d97cfcea6a55",
+            "windows": "1:683097529168:web:5fc800d73f3c7ef0ea6a55"
+          }
+        }
+      }
+    }
+  },
+  "emulators": {
+    "singleProjectMode": true
+  }
+}

@@ -1,0 +1,21 @@
+
+# Design Patterns Used
+
+1. **Singleton Pattern**:
+   - Usage: Firebase services (e.g., `FirebaseFirestore.instance`).
+   - Ensures a single instance of Firebase is used across the app.
+
+2. **Factory Method**:
+   - Usage: Flutter widgets like `MaterialApp` and `Scaffold` act as factories to create the UI elements.
+
+3. **Observer Pattern**:
+   - Usage: Flutter's state management relies on observers, where widgets rebuild in response to state changes.
+
+4. **Strategy Pattern**:
+   - Usage: Query filtering logic in `QueryScreen` changes based on the selected criteria (e.g., date, task, tag).
+
+5. **Command Pattern**:
+   - Usage: Button actions (e.g., Save Task, Query Tasks) encapsulate user actions into discrete commands.
+
+6. **Decorator Pattern**:
+   - Usage: Wrapping `TextField` widgets with `InputDecoration` for additional UI features.

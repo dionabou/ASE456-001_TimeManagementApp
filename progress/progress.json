@@ -1,0 +1,76 @@
+{
+    "deadline": "12/06/2024",
+    "milestones": [
+        {
+            "milestone": 1,
+            "date": "2024-10-11",
+            "goal": [
+                "Set up Canvas pages for the individual project.",
+                "Create a GitHub repository for the project.",
+                "Spend time understanding the project requirements."
+            ]
+        },
+        {
+            "milestone": 2,
+            "date": "2024-10-17",
+            "goal": [
+                "Set up the Flutter project.",
+                "Establish a connection to Firebase."
+            ]
+        },
+        {
+            "milestone": 3,
+            "date": "2024-10-24",
+            "goal": [
+                "Build a Prototype: Implement the time logging feature (DATE, FROM, TO, TASK, TAG).",
+                "Ensure that activities can be recorded and saved in Firebase."
+            ]
+        },
+        {
+            "milestone": 4,
+            "date": "2024-10-31",
+            "goal": [
+                "Implement the query functionality allowing users to search activities by date, task, or tag.",
+                "Test the integration between time logging and querying functionalities."
+            ]
+        },
+        {
+            "milestone": 5,
+            "date": "2024-11-07",
+            "goal": [
+                "Implement the report generation feature to show activities over a selected time range (e.g., 2021/01/01 to 2022/01/01)."
+            ]
+        },
+        {
+            "milestone": 6,
+            "date": "2024-11-14",
+            "goal": [
+                "Build Version 1: Complete the first version of the application, including logging, querying, and reporting features.",
+                "Perform unit tests and integration tests for all implemented features."
+            ]
+        },
+        {
+            "milestone": 7,
+            "date": "2024-11-21",
+            "goal": [
+                "Conduct regression testing to ensure that new features do not break existing functionality.",
+                "Prepare for the final version by addressing any bugs or issues."
+            ]
+        },
+        {
+            "milestone": 8,
+            "date": "2024-11-28",
+            "goal": [
+                "Build Final Version: Finalize the application with all features working and bugs resolved.",
+                "Finalize all documentation."
+            ]
+        },
+        {
+            "milestone": 9,
+            "date": "2024-12-02",
+            "goal": [
+                "Submit the final project, including the zipped GitHub repository, documentation, and project presentation on Canvas."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+
+# Code Smells and Refactoring
+
+## Code Smells
+1. **Long Methods**:
+   - Some methods, like `saveTask` in InputScreen, have too many responsibilities, making them harder to read and maintain.
+   - Example: Converting time formats and saving to Firestore should be delegated to helper methods or services.
+
+2. **Duplicate Code**:
+   - Repeated logic for date/time validation in multiple places (e.g., `showDatePickerDialog` and `showTimePickerDialog`).
+   - Refactor by creating reusable utility functions or services.
+
+3. **God Class**:
+   - Widgets like `InputScreen` and `QueryScreen` contain both UI and business logic.
+   - Solution: Extract business logic into separate classes or providers (e.g., using the BLoC or Provider pattern).
+
+4. **Hardcoded Strings**:
+   - Error messages and Firebase keys are hardcoded.
+   - Solution: Use constants or resource files to store these values.
+
+5. **Tight Coupling**:
+   - Direct usage of Firebase methods tightly couples the app to Firebase.
+   - Solution: Introduce an abstraction layer to enable easier testing and flexibility in the future.
+
+---
+
+## Refactoring 
+
+1. **Extract Methods**:
+   - Refactor the `saveTask` method by extracting smaller methods for validation, time conversion, and saving to Firestore.
+
+2. **Introduce Utility Classes**:
+   - Create a `DateTimeUtils` class for all date and time-related operations.
+
+3. **Separate UI and Business Logic**:
+   - Use the BLoC or Provider pattern to manage business logic separately from the UI components.
+
+4. **Use Constants**:
+   - Define constants for error messages, Firebase keys, and other hardcoded strings.
+
+5. **Dependency Injection**:
+   - Use dependency injection to make Firebase services replaceable for testing and future scalability.
